@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlightRight.iml" filepath="$PROJECT_DIR$/FlightRight.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlightRightReservations.iml" filepath="$PROJECT_DIR$/FlightRightReservations.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

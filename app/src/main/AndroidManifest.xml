@@ -22,9 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" >
-
-            </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".instructor"
             android:label="@string/title_activity_instructor"
@@ -34,7 +32,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="flightrightacademy.flightrightreservations.MainActivity" />
         </activity>
-        <activity android:name=".calendarActivity"></activity>
+        <activity android:name=".calendarActivity" />
+        <activity android:name=".Progress"></activity>
     </application>
 
 </manifest>

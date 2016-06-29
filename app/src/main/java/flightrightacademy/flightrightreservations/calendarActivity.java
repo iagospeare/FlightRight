@@ -42,6 +42,7 @@ public class calendarActivity extends AppCompatActivity {
             case 2: instructor = "John Waters";
                     break;
             case 3: instructor = "Maisie Williams";
+                    break;
             default: instructor = "Instructor TBD";
                     break;
         }
