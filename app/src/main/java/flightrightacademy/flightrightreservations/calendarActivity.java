@@ -63,13 +63,16 @@ public class calendarActivity extends AppCompatActivity {
 
         if(Build.VERSION.SDK_INT<23){
             hours = tp.getCurrentHour();
+
             minutes = tp.getCurrentMinute();
         }else{
             hours = tp.getHour();
             minutes = tp.getMinute();
         }
         long begin = CV.getDate();
+
         long end = CV.getDate() + TimeUnit.HOURS.toMillis(2);
+
         final Intent insert = new Intent(Intent.ACTION_INSERT)
                 .setData(CalendarContract.Events.CONTENT_URI)
                 .putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, begin)
